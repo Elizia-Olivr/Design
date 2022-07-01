@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulários</title>
+</head>
+<body>
+    <form action = "responde.html">
+
+        <fieldset>
+            <legend>Autenticação</legend>
+            <div>
+                <label for="login"> Login </label>
+                <input type="text" id="login"/>
+            </div>
+            
+            <div>
+                    <label for="senha"> Senha: </label>
+                    <input type="password" id="senha"/>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+        <legend>Dados pessoais</legend>
+
+            <div>
+                <label for="nome"> Nome: </label>
+                <input type="text" id="nome"/> 
+            </div>
+
+            <div>
+                <label for="email"> E-mail: </label>
+                <input type="email" id="email"/>
+            </div>
+
+            <div>
+                <label for="tel"> Telefone: </label>
+                <input type="tel" id="tel"/>
+            </div>
+                
+            <div>
+                <label for="data_nasc"> Data de nascimento: </label>
+                <input type="date" id="data_nasc"/>
+            </div>
+
+            <div>
+                <label for="estado"> Estado: </label>
+                    <select id="estado">
+                        <option value="RN">Rio Grande do Norte</option> 
+                        <option value="PE">Pernambuco</option>    
+                        <option value="AL">Alagoas</option>                          
+                    </select>
+            </div>
+            <div>
+                <label for="ciadade">Cidade:</label>
+                <input type="text" list="cidades" id="cidade"/>
+                <datalist id="cidades">
+                    <option value="natal">Natal</option>
+                    <option value="santacruz">Santa Cruz</option>
+                    <option value="novacruz">Nova Cruz</option>
+                </datalist>
+            </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>
