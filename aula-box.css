@@ -1,0 +1,28 @@
+/*span{
+    background-color: blanchedalmond;
+    display: inline-block; /*junta configurações do block e do inline. permite altura e largura. */
+   /* width:20em;
+    height:20em;*/
+main{
+    margin:0 auto;
+    width: 70;
+}
+div{
+    background-color: rgb(194, 146, 146);
+   /*quando o elemento é inline a altura e largura não funcionam*/
+    width: 30em;
+    min-height: 15em;
+    display: inline-block;
+    vertical-align: top;
+    border-radius:2em  ;
+    border: 2px solid white;
+    box-shadow: 0 0 1em;
+    margin:1em;
+    padding: 1em;
+    box-sizing: border-box; /*tem dois valores. quando aplicado ele mantem o elemento a mesma largura e */
+
+}
+/*body{
+    margin: 100px 400px 0 400px ;
+    background-color: rgb(240, 238, 236);
+}*/
